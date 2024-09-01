@@ -6,3 +6,4 @@ print("hasilnya adalah", hasil)
 print("sisanya adalah", sisa)
 
 print('sisa dari pembagian tersebut adalah =', sisa)
+#tes perubahan
