@@ -16,5 +16,5 @@ else:  # b > a
         c = a
 d = (a * b) // c
 
-hasil = ((c * d) / a) + ((c * d) / b)
+hasil = a + b
 print(int(hasil))
