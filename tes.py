@@ -1,0 +1,1 @@
+#digunakan untuk membuat code sementara sebelum dipindahkan ke file aslinya
