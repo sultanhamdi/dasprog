@@ -8,15 +8,14 @@ elif(x == 0) or (y == 0) or (x == X) or (y == Y):
 else:
     ubin_kosong = 8
 
-makan = bool(True)
-
+    
 if M == 1:
     x1, y1 = map(int, input().split())
-    makan = True
+    
 elif M == 2:
     x1, y1 = map(int, input().split())
     x2, y2 = map(int, input().split())
-    makan = True
+    
 elif M == 3:
     x1, y1 = map(int, input().split())
     x2, y2 = map(int, input().split())
@@ -124,8 +123,6 @@ elif M == 8:
         ubin_kosong -= 1
 elif M == 0:
     ubin_kosong = 0
-
-#print(kk)
 
 if ubin_kosong > 0:
     print("Senshi makan hari ini!")
