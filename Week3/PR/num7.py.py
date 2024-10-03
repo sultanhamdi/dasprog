@@ -1,8 +1,8 @@
 # Logika utama untuk enkripsi atau dekripsi
 mode, key = map(int, input().split())
 pesan = input()  # Memasukkan pesan
-alphabet = "abcdefghijklmnopqrstuvwxyz"  # Alfabet untuk penggeseran
-alphabet_upper = alphabet.upper()  # Alfabet untuk penggeseran
+alphabet_lower = "abcdefghijklmnopqrstuvwxyz"  # Alfabet lower case untuk penggeseran
+alphabet_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"   # Alfabet upper case untuk penggeseran
 
 
 def Enkripsi(pesan, key, alphabet):
