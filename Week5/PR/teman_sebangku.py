@@ -2,11 +2,11 @@
 N, r, c = map(int, input().split())
 
 # Membuat array tempat duduk
-seat = [[0] * c for _ in range(r)]
+seat = [[0] * c for i in range(r)]
 
 # Memasukkan data siswa ke dalam array
 siswa = []
-for _ in range(N):
+for i in range(N):
     x, a, b = map(int, input().split())
     seat[a-1][b-1] = x  # Memasukkan siswa ke tempat duduk
     siswa.append((x, a-1, b-1))  # Menyimpan data siswa

@@ -14,7 +14,8 @@ C.sort()
 # Jika semua nilai barang dan uang positif
 if all(p > 0 for p in P) and all(c > 0 for c in C):
     if sum(P) > C[0]:
-        hutang_maksimum = sum(P) - C[0]
+        hutang_maksimum = sum(P)
+        # hutang_maksimum = sum(P) - C[0]
         print(hutang_maksimum * -1)
     else:  # Misalnya dalam kasus ini, tidak ada hutang karena uangnya cukup atau lebih
         hutang_maksimum = 0
