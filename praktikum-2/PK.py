@@ -1,6 +1,4 @@
-S = input("")  
-N = len(S)  
-palindrome = True
+S = input("")    
 
 if S == S[::-1]:
     print("Palindrome King!")  
