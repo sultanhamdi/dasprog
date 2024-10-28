@@ -38,7 +38,7 @@ if 2 <= r <= 10 and 2 <= c <= 10:
 
     for i in range(r):
         for j in range(j):
-            if 
+            if
             
     # Output hasil korban
     print(f"Korban = {kena}")

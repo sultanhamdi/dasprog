@@ -16,7 +16,7 @@ print(daftarModus)
 
 
 # test case 1
-if len(arr) > 1:
+if len(daftarModus) == 1:
     if len(daftarModus) == 1 :
         print(f"{daftarModus[0]}*{max_frekuensi}={daftarModus[0]*max_frekuensi} ")
 
