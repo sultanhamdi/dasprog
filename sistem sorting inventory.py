@@ -32,10 +32,8 @@ def bubble_sort(df, key, ascending=True):
 
 if criteria in df_inventory.columns:
     df_inventory = bubble_sort(df_inventory, criteria, ascending)
+    df_inventory.index = range(1, len(df_inventory) + 1)
+    print("\nYour Inventory:")
+    print(df_inventory)
 else:
     print("Invalid sorting criteria! Choose from 'name', 'strength', 'rarity', 'weight', or 'value'.")
-
-df_inventory.index = range(1, len(df_inventory) + 1)
-
-print("\nYour Inventory:")
-print(df_inventory)
